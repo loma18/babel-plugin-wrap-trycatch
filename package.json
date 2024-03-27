@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-wrap-trycatch",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "一个自动添加用try catch包裹await的插件",
   "main": "./lib/index.js",
   "scripts": {
