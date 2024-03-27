@@ -1,0 +1,17 @@
+{
+    // 预设: Babel 官方做了一些预设的插件集，称之为 Preset，我们只需要使用对应的 Preset 就可以了
+    "presets": [
+    ],
+    // babel和webpack类似，主要是通过plugin插件进行代码转化的，如果不配置插件，babel会将代码原样返回
+    "plugins": [
+        // "wrap-trycatch"
+    ],
+    "env": {
+        "development": {
+            "plugins": ["./src/index.js"]
+        },
+        "production": {
+            "presets": ["@babel/preset-env"]
+        }
+    }
+}
